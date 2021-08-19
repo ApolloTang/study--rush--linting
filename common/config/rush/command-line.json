@@ -23,6 +23,18 @@
       "allowWarningsInSuccessfulBuild": true
     },
     {
+      "commandKind": "bulk",
+      "name": "rebuild:watch",
+      "summary": "Watch and build all projects' dependencies",
+      "description": "This command is similar to \"rush build\" but only apply to dependencies",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "watchForChanges": true
+    },
+    {
       "name": "commitlint",
       "commandKind": "global",
       "summary": "Used by the commit-msg Git hook. This command invokes commitlint to lint commit message.",

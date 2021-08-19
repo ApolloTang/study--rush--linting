@@ -10,6 +10,7 @@
   "scripts": {
     "build": "",
     "rebuild": "npm run build",
+    "rebuild:watch": "npm run build",
     "test": "tsdx test --passWithNoTests",
     "analyze": "size-limit --why"
   },

@@ -13,6 +13,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "rebuild": "npm run build",
+    "rebuild:watch": "npm run build",
     "test": "tsdx test",
     "size": "size-limit",
     "analyze": "size-limit --why"
