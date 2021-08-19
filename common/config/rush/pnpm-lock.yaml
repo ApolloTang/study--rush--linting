@@ -19,6 +19,7 @@ importers:
       '@types/react': 17.0.5
       '@types/react-dom': ^17.0.0
       '@types/testing-library__jest-dom': ^5.9.1
+      eslint: ~7.32.0
       jest: 26.6.0
       react: 17.0.2
       react-dom: 17.0.2
@@ -40,6 +41,7 @@ importers:
       '@types/react': 17.0.5
       '@types/react-dom': 17.0.9
       '@types/testing-library__jest-dom': 5.14.1
+      eslint: 7.32.0
       jest: 26.6.0
       react-scripts: 4.0.3_react@17.0.2+typescript@4.2.4
       typescript: 4.2.4
@@ -53,6 +55,7 @@ importers:
       '@types/react-dom': ^17.0.0
       '@umijs/preset-react': 1.x
       '@umijs/test': ^3.4.20
+      eslint: ~7.32.0
       react: 17.0.2
       react-dom: 17.0.2
       typescript: 4.2.4
@@ -70,6 +73,7 @@ importers:
       '@types/react': 17.0.5
       '@types/react-dom': 17.0.9
       '@umijs/test': 3.5.17
+      eslint: 7.32.0
       typescript: 4.2.4
       yorkie: 2.0.0
 
@@ -110,12 +114,14 @@ importers:
   ../../features/example-feat-comp:
     specifiers:
       '@types/react': 17.0.5
+      eslint: ~7.32.0
       react: 17.0.2
       tsdx: ^0.14.1
       tslib: ^2.2.0
       typescript: 4.2.4
     devDependencies:
       '@types/react': 17.0.5
+      eslint: 7.32.0
       react: 17.0.2
       tsdx: 0.14.1
       tslib: 2.3.1
@@ -124,12 +130,14 @@ importers:
   ../../packages/example-pkg-basic:
     specifiers:
       '@types/node': 14.14.31
+      eslint: ~7.32.0
       size-limit: ^4.10.2
       tsdx: ^0.14.1
       tslib: ^2.2.0
       typescript: 4.2.4
     devDependencies:
       '@types/node': 14.14.31
+      eslint: 7.32.0
       size-limit: 4.12.0
       tsdx: 0.14.1_@types+node@14.14.31
       tslib: 2.3.1
