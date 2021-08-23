@@ -1,6 +1,10 @@
-# Monorepo Supported By Rush and PNPM
+# A study of rushstack-eslint-patch
 
-> keywords: Monorepo/Rush/PNPM/React/CRA/UmiJS/TSDX
+
+A study of [@rushstack/eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch) based on: [https://github.com/worldzhao/rush-monorepo-example](https://github.com/worldzhao/rush-monorepo-example)
+
+> keywords: rushstack-eslint-patch
+
 
 ## Features
 
@@ -14,22 +18,5 @@
 - Solve the Rush `succeeded with warnings` problem
 - Support PNPM workspace
 
-## Quick Start
-
-```shell
-npm i @microsoft/rush@5.47.0 pnpm -g
-
-git clone git@github.com:worldzhao/rush-monorepo-example.git
-
-cd rush-monorepo-example
-
-rush update
-
-rush rebuild -T @rush-monorepo/cra-app
-
-cd apps/cra-app
-
-rushx start
-```
-
 More 👉 [应用级 Monorepo 优化方案](https://github.com/worldzhao/blog/issues/9)
+
