@@ -18,6 +18,7 @@
     "react": ">=16"
   },
   "devDependencies": {
+    "@rush-monorepo/eslint-config": "workspace:*",
     "@types/react": "^17.0.5",
     "react": "^17.0.2",
     "tsdx": "^0.14.1",

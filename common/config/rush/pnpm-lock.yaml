@@ -113,6 +113,7 @@ importers:
 
   ../../features/example-feat-comp:
     specifiers:
+      '@rush-monorepo/eslint-config': workspace:*
       '@types/react': 17.0.5
       eslint: ~7.32.0
       react: 17.0.2
@@ -120,6 +121,7 @@ importers:
       tslib: ^2.2.0
       typescript: 4.2.4
     devDependencies:
+      '@rush-monorepo/eslint-config': link:../eslint-config
       '@types/react': 17.0.5
       eslint: 7.32.0
       react: 17.0.2
@@ -129,6 +131,7 @@ importers:
 
   ../../packages/example-pkg-basic:
     specifiers:
+      '@rush-monorepo/eslint-config': workspace:*
       '@types/node': 14.14.31
       eslint: ~7.32.0
       size-limit: ^4.10.2
@@ -136,6 +139,7 @@ importers:
       tslib: ^2.2.0
       typescript: 4.2.4
     devDependencies:
+      '@rush-monorepo/eslint-config': link:../../features/eslint-config
       '@types/node': 14.14.31
       eslint: 7.32.0
       size-limit: 4.12.0
