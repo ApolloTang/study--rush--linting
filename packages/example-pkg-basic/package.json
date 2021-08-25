@@ -38,6 +38,8 @@
     }
   ],
   "dependencies": {
-    "@rushstack/eslint-patch": "~1.0.6"
+    "@rushstack/eslint-patch": "~1.0.6",
+    "eslint-plugin-jest": "~24.4.0",
+    "jest": "~27.0.6"
   }
 }

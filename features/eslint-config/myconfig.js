@@ -42,7 +42,7 @@ module.exports = {
   },
 
   rules: {
-    'no-console': 'error',
+    'no-console': 'warn',
     'no-undef': 'off', // https://github.com/eslint/typescript-eslint-parser/issues/437
     'no-unused-vars': 'warn',
 
@@ -96,8 +96,6 @@ module.exports = {
       ],
 
       rules: {
-        'no-console': 'error',
-
         // @typescript-eslint
         '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/class-name-casing': [
