@@ -10,7 +10,7 @@ module.exports = {
 
   settings: {
     jest: {
-      version: 27,
+      version: 27, // <--- https://github.com/microsoft/vscode-eslint/issues/1145#issuecomment-780130183
     },
 
     // Apply special parsing for TypeScript files
