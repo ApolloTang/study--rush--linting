@@ -42,7 +42,7 @@ module.exports = {
   },
 
   rules: {
-    'no-console': 'warn',
+    'no-console': 'error',
     'no-undef': 'off', // https://github.com/eslint/typescript-eslint-parser/issues/437
     'no-unused-vars': 'warn',
 
