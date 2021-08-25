@@ -36,5 +36,8 @@
       "path": "dist/example-pkg-basic.esm.js",
       "limit": "10 KB"
     }
-  ]
+  ],
+  "dependencies": {
+    "@rushstack/eslint-patch": "~1.0.6"
+  }
 }
