@@ -8,7 +8,9 @@
     "rebuild": "npm run build",
     "postinstall": "umi generate tmp",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "lint-pkg": "eslint ./src",
+    "lint-pkg:fix": "eslint ./src --fix"
   },
   "dependencies": {
     "@rush-monorepo/example-feat-comp": "workspace:*",

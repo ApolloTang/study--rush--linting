@@ -47,7 +47,31 @@
       "summary": "Used by the pre-commit Git hook. This command invokes eslint to lint staged changes.",
       "autoinstallerName": "rush-lint",
       "shellCommand": "lint-staged"
-    }
+    },
+    {
+      "commandKind": "bulk",
+      "name": "lint-pkg",
+      "summary": "run linting on packages",
+      "description": "exec eslint on package that has configured with eslint",
+      "safeForSimultaneousRushProcesses": true,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "watchForChanges":false
+    },
+    {
+      "commandKind": "bulk",
+      "name": "lint-pkg:fix",
+      "summary": "run linting on packages",
+      "description": "exec eslint on package that has configured with eslint",
+      "safeForSimultaneousRushProcesses": true,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "watchForChanges":false
+    },
     // {
     //   /**
     //    * (Required) Determines the type of custom command.

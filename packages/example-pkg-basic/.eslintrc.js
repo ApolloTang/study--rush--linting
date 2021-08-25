@@ -16,7 +16,7 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 2015,
   },
-  // rules: {
-  //   'no-console': 'warn',
-  // },
+  rules: {
+    'no-console': 'warn',
+  },
 };

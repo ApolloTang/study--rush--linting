@@ -5,7 +5,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "lint-pkg": "eslint ./src",
+    "lint-pkg:fix": "eslint ./src --fix"
   },
   "dependencies": {
     "@rush-monorepo/example-pkg-basic": "workspace:*",
