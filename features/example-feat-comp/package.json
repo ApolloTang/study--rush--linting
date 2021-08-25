@@ -14,7 +14,7 @@
     "test": "tsdx test --passWithNoTests",
     "analyze": "size-limit --why",
     "lint-pkg": "eslint ./src",
-    "lint_pkg:fix": "eslint ./src --fix"
+    "lint-pkg:fix": "eslint ./src --fix"
   },
   "peerDependencies": {
     "react": ">=16"
