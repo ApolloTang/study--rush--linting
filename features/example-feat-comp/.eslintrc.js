@@ -9,4 +9,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
+  rules: {
+    'react/no-unescaped-entities': 'warn',
+  },
 };
