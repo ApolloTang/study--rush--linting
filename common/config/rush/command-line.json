@@ -14,7 +14,7 @@
     {
       "commandKind": "bulk",
       "name": "rebuild",
-      "summary": "Build all projects",
+      "summary": "[CUSTOM] Build all projects",
       "description": "This command is similar to \"rush build\"",
       "safeForSimultaneousRushProcesses": false,
       "enableParallelism": true,
@@ -25,7 +25,7 @@
     {
       "commandKind": "bulk",
       "name": "rebuild:watch",
-      "summary": "Watch and build all projects' dependencies",
+      "summary": "[CUSTOM] Watch and build all projects' dependencies",
       "description": "This command is similar to \"rush build\" but only apply to dependencies",
       "safeForSimultaneousRushProcesses": false,
       "enableParallelism": true,
@@ -37,7 +37,7 @@
     {
       "name": "commitlint",
       "commandKind": "global",
-      "summary": "Used by the commit-msg Git hook. This command invokes commitlint to lint commit message.",
+      "summary": "[CUSTOM] Used by the commit-msg Git hook. This command invokes commitlint to lint commit message.",
       "autoinstallerName": "rush-lint",
       "shellCommand": "node common/autoinstallers/rush-lint/commit-lint.js"
     },
@@ -51,7 +51,7 @@
     {
       "commandKind": "bulk",
       "name": "lint-pkg",
-      "summary": "run linting on packages",
+      "summary": "[CUSTOM] run linting on packages",
       "description": "exec eslint on package that has configured with eslint",
       "safeForSimultaneousRushProcesses": true,
       "enableParallelism": true,
@@ -64,7 +64,7 @@
     {
       "commandKind": "bulk",
       "name": "lint-pkg:fix",
-      "summary": "run linting on packages",
+      "summary": "[CUSTOM] run linting on packages",
       "description": "exec eslint on package that has configured with eslint",
       "safeForSimultaneousRushProcesses": true,
       "enableParallelism": true,
