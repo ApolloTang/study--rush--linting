@@ -83,11 +83,11 @@ Where does lint-staged find the binary for eslint and prettier?
 <root>/common/autoinstallers/rush-lint/node_modules/.bin/prettier
 ```
 
-Again this binary are installed by the autoinstaller `rush-lint`. 
+Again this binary are installed by the `autoinstaller/rush-lint/package.json`. 
 
-When eslint run it will look for nearest `.eslintrc.js` (current directory or recursively walk up the parrent directory.
+When eslint runs, it will look for nearest `.eslintrc.js` (current directory or recursively walk up the parent directory).
 
-I have not investigate how prettier find its configuration, but my guess is it works similar to eslint. Currently there is a `.prettierrc` at the `<root>`. 
+I have not investigate how prettier find its configuration, but my guess is it works similar to eslint. Currently there is a `.prettierrc` located in `<root>/`. 
 
 
 
