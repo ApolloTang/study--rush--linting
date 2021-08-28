@@ -28,8 +28,8 @@ async function main(_debug) {
     );
     debug && console.log('[commit-lint.js (MSG)] running commitlint ---> PASS');
   } catch (_e) {
-    debug && console.log('[commit-lint.js (ERROR)] running commitlint ---> FAIL');
-    debug && console.log('[commit-lint.js (ERROR)] Message: ', _e);
+    debug && console.log('[commit-lint.js (MSG)] running commitlint ---> FAIL');
+    debug && console.log('[commit-lint.js (ERROR MSG)]', _e);
     process.exit(1);
   }
 }
