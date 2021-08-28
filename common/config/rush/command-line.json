@@ -42,7 +42,7 @@
       "shellCommand": "node common/autoinstallers/rush-lint/commit-lint.js"
     },
     {
-      "name": "lint",
+      "name": "lint-staged",
       "commandKind": "global",
       "summary": "Used by the pre-commit Git hook. This command invokes the library called okonet/lint-staged to run eslint on staged changes.",
       "autoinstallerName": "rush-lint",
