@@ -5,7 +5,8 @@
   ],
   "{apps,packages,features}/**/*.ts?(x)": [
     "eslint --fix --color",
-    "prettier --parser=typescript --write"
+    "prettier --parser=typescript --write",
+    "custom foo"
   ],
   "{apps,packages,features}/**/*.*.{css,less,md,json}": [
     "prettier --write"

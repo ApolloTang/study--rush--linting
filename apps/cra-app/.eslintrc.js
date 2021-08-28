@@ -1,3 +1,5 @@
+console.log('xxxxxxxxxxxxxx');
+
 module.exports = {
   root: true,
   extends: [

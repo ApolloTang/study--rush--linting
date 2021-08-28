@@ -11,5 +11,8 @@
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",
     "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "postinstall": "cp ./custom ./node_modules/.bin/"
   }
 }
