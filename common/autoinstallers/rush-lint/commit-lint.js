@@ -12,7 +12,7 @@ const pathToMonoRoot = path.dirname(dotGitPath);
 const commitlintConfigScript = path.resolve(__dirname, './commitlint.config.js');
 const commitlintBin = path.resolve(__dirname, './node_modules/.bin/commitlint');
 
-const debug = false;
+const debug = true;
 main(debug);
 
 async function main(_debug) {
@@ -28,8 +28,8 @@ async function main(_debug) {
     );
     debug && console.log('[commit-lint.js (MSG)] running commitlint ---> PASS');
   } catch (_e) {
-    debug && console.log('[commit-lint.js (ERROR)] running commitlint ---> FAIL', _e);
-    debug && console.log('[commit-lint.js (ERROR)] Error', _e);
+    debug && console.log('[commit-lint.js (ERROR)] running commitlint ---> FAIL');
+    debug && console.log('[commit-lint.js (ERROR)] Message: ', _e);
     process.exit(1);
   }
 }
