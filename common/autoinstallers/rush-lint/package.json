@@ -13,6 +13,6 @@
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "postinstall": "cp ./custom ./node_modules/.bin/"
+    "postinstall": "node post-install-script.js"
   }
 }

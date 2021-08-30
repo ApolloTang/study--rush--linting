@@ -6,7 +6,7 @@
   "{apps,packages,features}/**/*.ts?(x)": [
     "eslint --fix --color",
     "prettier --parser=typescript --write",
-    "custom foo"
+    "custom-script-for-lintstaged.sh testing123"
   ],
   "{apps,packages,features}/**/*.*.{css,less,md,json}": [
     "prettier --write"
