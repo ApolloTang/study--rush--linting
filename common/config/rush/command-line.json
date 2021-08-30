@@ -38,6 +38,7 @@
       "name": "commitlint",
       "commandKind": "global",
       "summary": "[CUSTOM] Used by the commit-msg Git hook. This command invokes commitlint to lint commit message.",
+      "safeForSimultaneousRushProcesses": true,
       "autoinstallerName": "rush-lint",
       "shellCommand": "node common/autoinstallers/rush-lint/commit-lint.js"
     },
@@ -53,6 +54,7 @@
       "name": "custom-demo",
       "commandKind": "global",
       "summary": "demo",
+      "safeForSimultaneousRushProcesses": true,
       "autoinstallerName": "rush-lint",
       "shellCommand": "custom-script-for-rush-global-command-in-autoinstaller.sh arg1 arg2"
     },
