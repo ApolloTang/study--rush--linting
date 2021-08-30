@@ -45,9 +45,18 @@
       "name": "lint-staged",
       "commandKind": "global",
       "summary": "Used by the pre-commit Git hook. This command invokes the library called okonet/lint-staged to run eslint on staged changes.",
+      "safeForSimultaneousRushProcesses": true,
+      "autoinstallerName": "rush-lint",
+      "shellCommand": "node -e 'console.log(123);console.log(process.cwd());console.log(333)' && lint-staged --debug --verbose"
+    },
+    {
+      "name": "custom-demo",
+      "commandKind": "global",
+      "summary": "demo",
       "autoinstallerName": "rush-lint",
       "shellCommand": "custom-script-for-rush-global-command-in-autoinstaller.sh arg1 arg2"
     },
+
     {
       "commandKind": "bulk",
       "name": "lint-pkg",
