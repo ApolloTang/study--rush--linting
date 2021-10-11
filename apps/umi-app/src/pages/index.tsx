@@ -21,3 +21,5 @@ export default function IndexPage() {
     </div>
   );
 }
+
+// test pre commit hook
